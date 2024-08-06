@@ -1,0 +1,160 @@
+body {
+  background-color: #13181d;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+}
+
+.band .colum0 {
+  text-align: center !important;
+}
+
+.band .row0 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: .3125rem;
+  margin-top: 5rem;
+
+}
+
+
+
+
+
+.band .block-title {
+  display: inline-block;
+  position: relative;
+  padding: 0 .625em;
+}
+
+
+.band .block-title:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: .875rem;
+  background: #ff5252;
+  bottom: .775rem;
+  left: 0;
+}
+
+
+
+
+
+.band .container {
+  position: relative;
+}
+
+.band .container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .band .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .band .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .band .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .band .container {
+    max-width: 1140px;
+  }
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.band .colum {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+
+}
+
+.band .row {
+  position: relative;
+  content: "";
+  display: table;
+  clear: both;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+
+.band .footer_members {
+  background-color: #ff5252;
+  color: #ffffff;
+  padding: 1.45rem;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+.band h1,
+.band h2,
+.band h3,
+.band h4,
+.band h5,
+.band h6,
+.band .h1,
+.band .h3,
+.band .h4,
+.band .h5,
+.band .h6 {
+  font-family: 'Dosis', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  margin-bottom: .5rem;
+  font-weight: 400;
+  position: relative;
+  letter-spacing: 2px;
+  color: #ffffff;
+
+} 
+
+.band h1,
+.band .h1 {
+  font-size: 2.875rem;
+  line-height: 1.2;
+  letter-spacing: 5px;
+}
+
+.band h6,
+.band .h6 {
+  font-size: .75rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+
+}
+
+
+
+
+.band .uppercase {
+  text-transform: uppercase;
+}
+
+.band .span {
+  font-size: .75rem;
+}

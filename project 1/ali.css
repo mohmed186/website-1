@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(4, 4, 4);
+    margin: 0;
+     padding: 0; 
+
+}
+
+.container {
+    padding : 0 30px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(225, 228, 232);
+    font-size: 50px;
+
+}
+
+h1 {
+    text-align: left;
+    text-transform: capitalize;
+    color: rgb(249, 242, 242);
+    font-size: 15px;
+
+
+}
+.section1{
+    margin-bottom:20px;
+}
+.iconsNav{
+    margin: 20px;
+}
+.iconsNav i{
+    margin-left: 35px;
+}
+.column{
+    width:23%;
+}
+
+.column img:hover {
+    margin: 20px;
+    padding: 5px;
+    transform: scale(1.0,1.0);
+    flex-wrap: wrap;
+}
+.section1{
+    margin-bottom: 50px;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.section1 .container .row .column {
+    padding: 15px;
+}
+.section1 .container .row img {
+    display: block;
+    /* width: 100%; */
+    margin-bottom: 10px;
+    margin: 0;
+}
+.background {
+    background-image: url("download\ \(4\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    font-size: 40px;
+    
+ }
