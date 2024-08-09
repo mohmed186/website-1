@@ -1,0 +1,159 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  /* small  */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+  /* medium  */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+  /* larg  */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* body{
+    background-color: #15191d;
+} */
+
+.container .icon{
+    margin-top: 100px; 
+    margin-left: 48%;
+    color: white;
+}
+
+.container .imgs-container {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .container .box{
+    position: relative;
+    overflow: hidden;
+}
+
+.imgs-container .box img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.box img:hover{
+    transform: scale(1.05);
+
+}
+
+@media (min-width: 1199px) {
+    .imgs-container .box {
+        flex-basis: 25%;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .imgs-container .box {
+        flex-basis: 50%;
+        
+    }
+}
+
+.container .imgs-container .box img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.more{
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+}
+
+.more a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.container .line{
+    border: 1px solid white;
+    margin-top: 150px;
+}
+.news_header .head_line{
+    position: relative;
+    margin-top: 150px;
+}
+.head_line h1{
+    
+    margin-bottom: 100px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.container .news .head_line h1::before{
+    content: "";
+    position: absolute;
+    width: 23%;
+    height: 0.875rem;
+    background: #ff5252;
+    opacity: 0.4;
+    bottom: -0.15rem;
+    left: -10;
+    
+    
+}
+
+.news .imgs-container .box .text1 {
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+
+}
+
+.news .imgs-container .box .text2 {
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+.news .imgs-container .box  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container .icon {
+    margin-top: 100px;
+    margin: 0;
+    font-size: 2em;
+}
+h2 {
+    font-size: 20px;
+}
